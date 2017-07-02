@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<title>门三百宝箱</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./img/yan.ico" type="image/x-icon">
+		<style type="text/css">
+			body,div,ul,li{
+				margin:0px;
+				padding:0px;
+			}
+			body{
+			    background: -moz-radial-gradient(top, #005494 0%, #001526 100%);
+			    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#005494), color-stop(100%,#001526));
+			    background: -webkit-radial-gradient(top, #005494 0%,#001526 100%);
+			    background: -o-radial-gradient(top, #005494 0%,#001526 100%);
+			    background: -ms-radial-gradient(top, #005494 0%,#001526 100%);
+			    background: radial-gradient(to bottom, #005494 0%,#001526 100%);
+			    overflow-y: hidden;
+			    overflow-x: hidden;
+			}
+			.smallbox{
+				position: relative;
+				cursor: pointer;
+				display: inline-block;
+				margin:1px;
+			    width: 100px;
+			    height: 100px;
+			    box-sizing: border-box;
+			    border-right: 1px solid #444;
+			    border-left: 1px solid #666;
+			    border-top: 1px solid #ccc;
+			    border-radius: 10px;
+			    background: #000C18;
+			    background: -moz-radial-gradient(top, #112F47 0%, #000C18 100%);
+			    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#112F47), color-stop(100%,#000C18));
+			    background: -webkit-radial-gradient(top, #112F47 0%,#000C18 100%);
+			    background: -o-radial-gradient(top, #112F47 0%,#000C18 100%);
+			    background: -ms-radial-gradient(top, #112F47 0%,#000C18 100%);
+			    background: radial-gradient(to bottom, #112F47 0%,#000C18 100%);
+			}
+			.smallbox:hover{
+				box-shadow: 0px 0px 30px #0CC4DF;
+				transition-property: box-shadow;
+				transition-duration: 0.1s;
+			}
+			.smallbox>a{
+				position: absolute;
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+				top: 0px;
+				left: 0px;
+				line-height: 100px;
+				text-align: center;
+			}
+			#boxContainer{
+				position: absolute;
+				top: 10%;				
+				padding: 10px;
+				height: 80%;
+			}
+			@media only screen and (max-width: 1920px) and (min-width: 1300px){
+				#boxContainer{
+					position: absolute;
+					top: 40%;	
+					margin-top: -50px;
+					width: 1300px;
+					left: 50%;
+					margin-left: -650px;			
+				}	
+			}
+			@media only screen and (max-width: 1300px) and (min-width: 700px){
+				#boxContainer{
+					position: absolute;
+					top: 40%;	
+					margin-top: -100px;
+					width: 660px;
+					left: 50%;
+					margin-left: -330px;			
+				}	
+			}
+			@media only screen and (max-width: 700px) and (min-width: 0px){
+				#boxContainer{
+					position: absolute;
+					top: 40%;	
+					margin-top: -200px;
+					width: 330px;
+					left: 50%;
+					margin-left: -165px;			
+				}	
+			}
+		</style>
+	</head>
+	<body>
+		<div id="boxContainer">
+			<div class="box">
+				<div class="smallbox"><a href="./project/php/index.php"></a></div>
+				<div class="smallbox"></div>
+				<div class="smallbox"></div>
+				<div class="smallbox"></div>
+				<div class="smallbox"></div>
+				<div class="smallbox"></div>
+				<div class="smallbox"></div>
+				<div class="smallbox"></div>
+				<div class="smallbox"></div>
+				<div class="smallbox"></div>
+				<div class="smallbox"></div>
+				<div class="smallbox"></div>
+			</div>
+		</div>
+		<script src="js/html5.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
